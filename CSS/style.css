@@ -5,8 +5,23 @@ body{
     margin:0;
     display:grid;
     place-items:center;
+    text-align: center;
     
     }
+
+
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
     
     
 .container {
@@ -14,10 +29,10 @@ body{
     height: 100vh;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    /* font-size: 20px; */
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
-    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+    grid-template-rows: .2fr 1fr 1fr 1fr 100px;
     gap: 10px;
     padding:10px;
     box-sizing: border-box;
@@ -26,7 +41,7 @@ body{
     
 .container div{
     padding:10px;
-    border: 1px solid black;
+     /* border: 1px solid black;*/
     
     }
     
@@ -34,11 +49,26 @@ body{
     background-color: rgba(255, 255, 255, 0.502);
     }
     
+.card{
+    border: 1px solid black;
+}
+
+.card h2{
+    text-decoration: underline;
+}
+
+card p{
+    text-align:;
+}
 .header {
     background-color: rgba(255, 255, 255, 0.502);
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     }
     
 .footer{
