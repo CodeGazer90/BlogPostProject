@@ -3,9 +3,9 @@
     background-image: url("/IMG/background.jpg");
     background-size: cover;
     text-align: center;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    margin-right:20vw;
+    margin-right:20vw; */
     
     }
 
@@ -31,14 +31,14 @@ nav a:hover{
     
     
 .containera {
-    width: 60vw;
-    height: 100vh;
+    /* width: 60vw;
+    height: 100vh; */
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     /* font-size: 20px; */
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
-    grid-template-rows: .2fr 1fr 1fr 1fr 100px;
+    /* grid-template-rows: .2fr 1fr 1fr 1fr 100px; */
     gap: 10px;
     padding:10px;
     box-sizing: border-box;
