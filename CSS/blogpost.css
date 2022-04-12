@@ -18,8 +18,7 @@
     "hd"
     "auth"
     "soc";
-    gap: 10px;
-           
+    gap: 10px;      
     }
 
 #back{
@@ -38,8 +37,7 @@
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-   
+    align-items: center;  
     
 }
 .author{
@@ -73,9 +71,6 @@
 
 }
 
-h1{
-    text-align: ;
-}
 
 h3{
     font-style: italic;

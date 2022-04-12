@@ -116,8 +116,7 @@
         "hd"
         "auth"
         "soc";
-        gap: 10px;
-               
+        gap: 10px;             
         }
 
     img{
@@ -141,4 +140,5 @@
         justify-content: space-evenly;
         align-items: center;
         font-size: 25px;
+    }
 }
