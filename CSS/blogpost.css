@@ -1,5 +1,5 @@
 #postbody{
-    background-image: url("/IMG/background.jpg");
+    background-image: url("../IMG/background.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
